@@ -1,0 +1,35 @@
+[
+    {
+        "id": "1",
+        "nome": "sorvete de flocos 1L",
+        "foto": "https://www.kibon.com.br/content/dam/unilever/heart/brazil/pack_shot/7891150050242-1716856-png.png",
+        "ingredientes": "água, açúcar, gordura vegetal, leite em pó desnatado, açúcar líquido invertido, xarope de glicose, soro de leite, óleo vegetal, cacau em pó, emulsificantes mono e diglicerídeos de ácidos graxos e lecitina de soja, estabilizantes alginato de sódio e fosfato dissódico e aromatizantes.",
+        "have_sugar": true,
+        "preço": 10.50,
+        "vegan": false,
+        "categoria": "sorvete",
+        "bio": "Um dos sabores mais queridos do Brasil com ainda mais pedaços de chocolate!"
+    },
+    {
+        "id": "2",
+        "nome": "tablito",
+        "foto": "https://www.kibon.com.br/content/dam/unilever/wall_s_classics/brazil/product_visual/tablito-91052121-png.png.ulenscale.450x450.png",
+        "ingredientes": "Ingredientes: água, chocolate ao leite, óleo vegetal, açúcar, leite em pó desnatado, gordura vegetal, xarope de glicose, manteiga de cacau, maltodextrina, soro de leite, amendoim, leite em pó integral, estabilizantes gelatina, goma guar, goma jataí e carragena, emulsificantes mono e diglicerídeos de ácidos graxos, lecitina de soja e ésteres de ácidos graxos com poliglicerol, aromatizantes, regulador de acidez bicarbonato de sódio e acidulante ácido cítrico.",
+        "have_sugar": true,
+        "preço": 8.50,
+        "vegan": false,
+        "categoria": "picolé",
+        "bio": "O preferido entre os brasileiros traz uma delícia dentro da outra! Tablito é um chocolate ao leite envolvido por sorvete de creme e coberto com uma casquinha de chocolate branco crocante."
+    },
+    {
+        "id": "3",
+        "nome": "magnum vegano amendoas",
+        "foto": "https://www.kibon.com.br/content/dam/unilever/wall_s_classics/brazil/product_visual/magnum_vegano_amendoas-91052090-png.png.ulenscale.450x450.png",
+        "ingredientes": "Ingredientes: água, chocolate (açúcar, manteiga de cacau, pasta de cacau, gordura vegetal, emulsificante lecitina de soja e aromatizante), xarope de glicose, açúcar, amêndoa torrada, óleo vegetal, proteína de ervilha, sal, aromatizantes, estabilizantes goma jataí, goma guar e carragena, emulsificante mono e diglicerídeos de ácidos graxos e corante natural urucum.",
+        "have_sugar": true,
+        "categoria": "vegano",
+        "preço": 9.50,
+        "vegan": true,
+        "bio": "100% delicioso: combinação perfeita de cobertura crocante de chocolate e amêndoas e um cremoso sorvete sabor baunilha. Uma irresistível explosão de sabor!"
+    }
+]

@@ -1,0 +1,48 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F8EEEE;
+  }
+.App-header{
+  background-color: rgb(179,9,63,100%);
+  display: flex;
+}
+.produtos-top{
+  display: flex;
+}
+.produto-unico{
+  background: #FFFFFF;
+  box-shadow: 4px 13px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border-bottom: 5px #fff00f;
+  margin: 2%;
+  padding: 2%;
+}
+.produto-img{
+  background-color: aqua;
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  position: static;
+}
+.produto-nome{
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+
+
+}
+.produto-categoria{
+  background: #B3093F;
+  color: #F8EEEE;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-left: 50px;
+  
+  /* margin-left: 0px;
+  margin-right: 40px; */
+}
