@@ -3,6 +3,8 @@ import Logo from '../componentes/Logo';
 import Navbar from '../componentes/Navbar/Item';
 import Banner from '../componentes/Banner';
 import Header from '../componentes/header';
+import LogoExtensa from '../imagens/logoextensa/logoextensa.svg';
+
 import './home.css'
 import { useEffect, useState } from 'react';
 
@@ -29,19 +31,25 @@ const Home = () => {
           <Header/>
         </header>
         <Navbar/>
-        <Banner/>
-        <h1>produtos</h1>
+       
+        <div className='logo-extensa'>
+        <img  
+        src={LogoExtensa}></img>
+        </div>
         <div className='produtos-top'>
         {posts.length === 0 ?( <p>Carregando produtos...</p>) : (
           posts.map((post) => (
             <div className='produto-unico' key={post.id}>
               <h1 className='produto-categoria' >{post.categoria}</h1>
               <h2 className='produto-nome'>{post.nome}</h2>
-              <img className='produto-img' src={post.foto} alt="" />
-              <p>R$ {post.preço}</p>
+              <img height={200} className='produto-img' src={post.foto} alt="" />
+              <p className='produto-preco' >R$ {post.preço}</p>
             </div>
           ))
-        )}</div>
+        )}
+        <h1 className='slogan'>A maior sorveteria online
+        do Brasil faça já seu pedido na Gelato On Ice, nosso foco é proporcionar a melhor sensação da sorveteria caseira no conforto da sua casa</h1>
+        </div>
     </div>
   )
 }

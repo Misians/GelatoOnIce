@@ -7,7 +7,7 @@
         "have_sugar": true,
         "preço": 10.50,
         "vegan": false,
-        "categoria": "sorvete",
+        "categoria": "sorvete🍨",
         "bio": "Um dos sabores mais queridos do Brasil com ainda mais pedaços de chocolate!"
     },
     {
@@ -18,7 +18,7 @@
         "have_sugar": true,
         "preço": 8.50,
         "vegan": false,
-        "categoria": "picolé",
+        "categoria": "picolé🍡",
         "bio": "O preferido entre os brasileiros traz uma delícia dentro da outra! Tablito é um chocolate ao leite envolvido por sorvete de creme e coberto com uma casquinha de chocolate branco crocante."
     },
     {
@@ -27,7 +27,7 @@
         "foto": "https://www.kibon.com.br/content/dam/unilever/wall_s_classics/brazil/product_visual/magnum_vegano_amendoas-91052090-png.png.ulenscale.450x450.png",
         "ingredientes": "Ingredientes: água, chocolate (açúcar, manteiga de cacau, pasta de cacau, gordura vegetal, emulsificante lecitina de soja e aromatizante), xarope de glicose, açúcar, amêndoa torrada, óleo vegetal, proteína de ervilha, sal, aromatizantes, estabilizantes goma jataí, goma guar e carragena, emulsificante mono e diglicerídeos de ácidos graxos e corante natural urucum.",
         "have_sugar": true,
-        "categoria": "vegano",
+        "categoria": "vegano🌿",
         "preço": 9.50,
         "vegan": true,
         "bio": "100% delicioso: combinação perfeita de cobertura crocante de chocolate e amêndoas e um cremoso sorvete sabor baunilha. Uma irresistível explosão de sabor!"

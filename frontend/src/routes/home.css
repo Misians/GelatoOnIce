@@ -1,7 +1,6 @@
 .App{
-    width: 100vw;
-    height: 100vh;
-    background-color: #F8EEEE;
+  height: 100vh;
+    background-color: #fff;
   }
 .App-header{
   background-color: rgb(179,9,63,100%);
@@ -9,40 +8,56 @@
 }
 .produtos-top{
   display: flex;
+  margin: 30px;
 }
 .produto-unico{
-  background: #FFFFFF;
-  box-shadow: 4px 13px 12px rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+  box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   border-bottom: 5px #fff00f;
-  margin: 2%;
-  padding: 2%;
+  margin: 15px;
+  padding: 15px;
+  cursor: pointer;
 }
 .produto-img{
-  background-color: aqua;
-  box-sizing: border-box;
-  width: 200px;
-  height: 200px;
   align-items: center;
   justify-content: center;
-  position: static;
+  border-radius: 10px;
+  box-shadow: #2c2c2d 0px 0px 0px 0.30px;
 }
 .produto-nome{
-  font-size: 14px;
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: 300;
   font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;
-
-
 }
 .produto-categoria{
-  background: #B3093F;
-  color: #F8EEEE;
+  color: #B3093F;
   font-family: 'Poppins', sans-serif;
-  font-weight: lighter;
+  font-weight: bolder;
   text-transform: uppercase;
   font-size: 24px;
-  margin-left: 50px;
-  
-  /* margin-left: 0px;
-  margin-right: 40px; */
+  margin-top: 0px;
+  text-align: center;
+}
+.produto-preco{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.slogan{
+  margin-left: 30px;
+  color: #B3093F;
+  margin-right: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.logo-extensa{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
 }
