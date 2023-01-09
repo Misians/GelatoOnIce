@@ -31,7 +31,7 @@ const Home = () => {
           <Header/>
         </header>
         <Navbar/>
-       
+        <Banner/>
         <div className='logo-extensa'>
         <img  
         src={LogoExtensa}></img>
