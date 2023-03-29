@@ -1,16 +1,10 @@
-import './App.css';
-import { Outlet } from 'react-router-dom';
+import { AuthGoogleProvider } from "../src/context/authGoogle";
+import { AppRoutes } from "./routes/routes";
 
-
-function App() {
-
+export const App = () => {
   return (
-    <div className="App">
-      <div className='container'>
-        <Outlet/>
-      </div>
-    </div>
+    <AuthGoogleProvider>
+      <AppRoutes />
+    </AuthGoogleProvider>
   );
-}
-
-export default App;
+};

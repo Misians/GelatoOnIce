@@ -1,0 +1,20 @@
+#img{
+    display: flex;
+    justify-content: center ;
+  }
+.botao{
+  display: flex;
+
+  border-style: 2% rgba(171,9,63,1);
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 5%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.10);
+  margin: auto 0;
+}
+.bot-text{
+  color: rgba(171,9,63,1);
+}
