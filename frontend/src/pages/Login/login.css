@@ -1,0 +1,29 @@
+*{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+}
+p{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(197, 197, 197);
+    gap: 10px;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+button img{
+    margin-right: 20px;
+    margin-right: 5px;
+    align-items: center;
+}
